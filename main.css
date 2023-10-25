@@ -19,10 +19,17 @@ li{
     display: none;
 }
 
-.johnDoeImg{
-    width: 10px;
-    height: 10px;
+
+.bookOnSiteImg, .seeAllChallenges{
+    width: 400px;
+    height: 300px;
+    background-color: #E3170A;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 
+footer{
+    margin-top: 100px;
+}
 
