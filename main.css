@@ -1,0 +1,28 @@
+
+
+body{
+    
+}
+li{
+    list-style: none;
+}
+
+.logoImage{
+    width: 100px;
+    height: 82px;
+    border-radius: 17px;
+    display: grid;
+
+}
+
+.topnav{
+    display: none;
+}
+
+.johnDoeImg{
+    width: 10px;
+    height: 10px;
+}
+
+
+
