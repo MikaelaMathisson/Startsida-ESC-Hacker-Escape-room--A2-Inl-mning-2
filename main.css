@@ -2,6 +2,26 @@
 /* BRYT VID 900 PX*/
 @media screen {
    /* width: fit-content; /* Makes the headers width compared to the screen size */
+   /*
+   footer{                                              ÄNDRAR FOOTERN TILL ATT BLI BRED
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 
+}
+
+.infoFooter{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.siteMap{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 10px;
+}
+.followUs{
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
 }
 
 
@@ -43,13 +63,13 @@ li{
 }
 
 .firstImage{
-    max-width: 1200px;
+    max-width: 100%;
     margin-bottom: 300px;
     object-fit: contain;
 
 }
 
-.topnav{
+.topNav{
     display: none;
 }
 
@@ -62,9 +82,22 @@ li{
    
 }
 
+.fullStory{
+    background-color: #011827;
+    color: #FFFFFF;
+    height: 500px;
+    width: 100%;
+}
+.fullStoryButton{
+    background-color: #011827;
+    color: #8ACFE5;
+    border: 1px solid #8ACFE5;
+    padding: 10px 30px;
+
+}
+
 .bookOnSiteImg, .seeAllChallenges{
-    width: 400px;
-    height: 300px;
+    max-width: 100%;
 
     
 
@@ -73,7 +106,8 @@ li{
 
 .OnSiteChallengesButton{
     background-color: #8ACFE5;
-    border: none;   ¨
+    border: none;   
+    padding: 10px 30px;
     color: black;
     font-family: "Roboto";
     font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
@@ -87,18 +121,51 @@ li{
     align-items: center;
 }
 
-
+/* START JOHN DOE */
+.johnDoe{
+    max-width: 100%;
+}
+.johnDoeImg{
+    display: flex;
+    flex-direction: row;
+}
 .johnDoeP1{
     font-family: "Roboto";
     font-weight: 400;
     font-style: italic;
     font-size: 24px;
-    line-height: 21.09px;
+
+    margin-bottom: 0;
+    line-height: 21px;
+    max-width: 300px;
 }
 .johnDoeP2{
     font-family: "Roboto";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 21px;
+}
+
+
+
+
+footer{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #011827 ;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
     line-height: 21.09px;
 }
 
+footer h6{
+    font-weight: 700;
+    font-size: 18px;
+}
+footer p{
+    margin-left: 10px;
+}
