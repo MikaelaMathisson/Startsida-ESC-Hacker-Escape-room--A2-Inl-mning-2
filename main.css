@@ -1,17 +1,51 @@
 
-
-body{
-    
+/* BRYT VID 900 PX*/
+@media screen {
+   /* width: fit-content; /* Makes the headers width compared to the screen size */
 }
+
+
+header{
+    background-color: #011827 ;
+    height: 144px;
+    margin-bottom: 200px;
+    text-align: left;
+
+}
+.companyName{
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
 li{
     list-style: none;
 }
 
 .logoImage{
-    width: 100px;
+    width: 130px;
     height: 82px;
     border-radius: 17px;
-    display: grid;
+    margin: 15px 5px 24px 15px
+}
+.companyName{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    font-size: 9px;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstImage{
+    max-width: 1200px;
+    margin-bottom: 300px;
+    object-fit: contain;
 
 }
 
@@ -19,15 +53,52 @@ li{
     display: none;
 }
 
+.container{
+    margin-top: 480px;
+}
+.onlineChallenges{
+    display: block; /* Changes from whole width of site button to displaying it like a block */
+    flex-direction: column; /* Changes the order of the elements to a column instead of default row */
+   
+}
 
 .bookOnSiteImg, .seeAllChallenges{
     width: 400px;
     height: 300px;
-    background-color: #E3170A;
-    font-family: 'Oswald', sans-serif;
+
+    
 
 }
 
 
+.OnSiteChallengesButton{
+    background-color: #8ACFE5;
+    border: none;   ¨
+    color: black;
+    font-family: "Roboto";
+    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+}
 
+.aLinkOnlineChallenges{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    align-items: center;
+}
+
+
+.johnDoeP1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 21.09px;
+}
+.johnDoeP2{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
 
