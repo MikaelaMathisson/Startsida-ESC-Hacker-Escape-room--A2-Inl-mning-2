@@ -30,7 +30,6 @@ header{
     height: 144px;
     margin-bottom: 200px;
     text-align: left;
-
 }
 .companyName{
     color: #FFFFFF;
@@ -87,22 +86,46 @@ li{
     color: #FFFFFF;
     height: 500px;
     width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .fullStoryButton{
     background-color: #011827;
     color: #8ACFE5;
     border: 1px solid #8ACFE5;
     padding: 10px 30px;
-
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .bookOnSiteImg, .seeAllChallenges{
     max-width: 100%;
-
-    
-
 }
 
+.bookOnSite h4{
+    font-family: "Roboto";
+    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+    font-size: 32px;
+    color: #000000;
+
+    line-height: 37.5px;
+    margin: 20px 20px;
+}
+.seeAllChallenges h4{
+    font-family: "Roboto";
+    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+    font-size: 32px;
+    margin-top: 10px;
+}
+.seeAllChallengesButton, .bookOnSiteButton{
+    background-color: #E3170A;
+    color: white;
+    border: none;   
+    padding: 10px 35px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
 
 .OnSiteChallengesButton{
     background-color: #8ACFE5;
@@ -111,6 +134,9 @@ li{
     color: black;
     font-family: "Roboto";
     font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 91px;
 }
 
 .aLinkOnlineChallenges{
@@ -148,10 +174,16 @@ li{
 }
 
 
-
+.challenges h3{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 100px;
+    line-height: 37.5px;
+}
 
 footer{
-    margin-top: 300px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     background-color: #011827 ;
@@ -165,7 +197,10 @@ footer{
 footer h6{
     font-weight: 700;
     font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 footer p{
     margin-left: 10px;
+    line-height: 1;
 }
