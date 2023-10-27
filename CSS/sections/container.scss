@@ -20,6 +20,7 @@ li{
     width: 100%;
     display: block;
     font-size: 28px;
+    font-family: "Roboto", sans-serif;
 }
 .fullStoryButton{
     background-color: #011827;
@@ -37,7 +38,9 @@ li{
 .bookOnSiteImg, .seeAllChallenges{
     max-width: 100%;
 }
-
+.bookOnSite p{
+    font-family: "Roboto", sans-serif;
+}
 .bookOnSite h4{
     font-family: "Roboto", sans-serif;
     font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
@@ -55,6 +58,7 @@ li{
 }
 .seeAllChallenges p{
     font-size: 24px;
+    font-family: "Roboto", sans-serif;
 }
 .seeAllChallengesButton, .bookOnSiteButton{
     background-color: #E3170A;
@@ -123,6 +127,9 @@ li{
     font-size: 32px;
     margin-top: 100px;
     line-height: 37.5px;
+}
+.challenges{
+    font-family: "Roboto", sans-serif;
 }
 }
 
