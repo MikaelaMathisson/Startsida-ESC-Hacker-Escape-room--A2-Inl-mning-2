@@ -39,7 +39,7 @@ header .topNav {
 }
 header .firstImage {
   max-width: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }

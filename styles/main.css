@@ -62,13 +62,13 @@ header .topNav {
 }
 header .firstImage {
   max-width: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .container {
-  margin-top: 480px;
+  margin-top: 280px;
   /* START JOHN DOE */
 }
 .container li {
@@ -154,6 +154,7 @@ header .firstImage {
 }
 .container .johnDoe {
   max-width: 100%;
+  margin-top: 0;
 }
 .container .johnDoeImg {
   display: -webkit-box;
