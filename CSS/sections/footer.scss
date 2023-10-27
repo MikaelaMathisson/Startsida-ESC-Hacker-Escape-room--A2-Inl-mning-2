@@ -1,0 +1,24 @@
+
+/* START FOOTER */
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #011827 ;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.09px;
+
+    h6{
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    p{
+        margin-left: 10px;
+        line-height: 1;
+    }
+}

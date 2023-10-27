@@ -1,0 +1,45 @@
+header {
+  background-color: #011827;
+  height: 144px;
+  margin-bottom: 200px;
+  text-align: left;
+}
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+header .logoImage {
+  width: 130px;
+  height: 82px;
+  border-radius: 17px;
+  margin: 15px 5px 24px 15px;
+}
+header .companyName {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 0;
+  margin-top: 20px;
+}
+header .topNav {
+  display: none;
+}
+header .firstImage {
+  max-width: 100%;
+  margin-bottom: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}

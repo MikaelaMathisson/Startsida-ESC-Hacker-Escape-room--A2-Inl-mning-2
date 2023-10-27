@@ -1,31 +1,4 @@
 
-/* BRYT VID 900 PX*/
-@media screen {
-   /* width: fit-content; /* Makes the headers width compared to the screen size */
-   /*
-   footer{                                              ÄNDRAR FOOTERN TILL ATT BLI BRED
-    margin-top: 300px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 
-}
-
-.infoFooter{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.siteMap{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-left: 10px;
-}
-.followUs{
-    grid-column-start: 3;
-    grid-column-end: 4;
-} */
-
-.topNav{
-    display: none;
-}
 
 .container{
     margin-top: 480px;
@@ -34,39 +7,6 @@ li{
     list-style: none;
 }
 
-header{
-    background-color: #011827 ;
-    height: 144px;
-    margin-bottom: 200px;
-    text-align: left;
-}
-.companyName{
-    color: #FFFFFF;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    line-height: 0;
-    margin-top: 20px;
-}
-.logoImage{
-    width: 130px;
-    height: 82px;
-    border-radius: 17px;
-    margin: 15px 5px 24px 15px
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-}
-
-.firstImage{
-    max-width: 100%;
-    margin-bottom: 300px;
-    object-fit: contain;
-
-}
 
 .onlineChallenges{
     display: block; /* Changes from whole width of site button to displaying it like a block */
@@ -80,16 +20,19 @@ header{
     height: 500px;
     width: 100%;
     display: block;
-    margin: 0 auto;
+    font-size: 28px;
 }
 .fullStoryButton{
     background-color: #011827;
     color: #8ACFE5;
     border: 1px solid #8ACFE5;
-    padding: 10px 30px;
+    padding: 15px 40px;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .bookOnSiteImg, .seeAllChallenges{
@@ -111,13 +54,19 @@ header{
     font-size: 32px;
     margin-top: 10px;
 }
+.seeAllChallenges p{
+    font-size: 24px;
+}
 .seeAllChallengesButton, .bookOnSiteButton{
     background-color: #E3170A;
     color: white;
     border: none;   
-    padding: 10px 35px;
+    padding: 20px 60px;
     border-radius: 4px;
     margin-bottom: 50px;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 700;
 }
 
 .OnSiteChallengesButton{
@@ -173,27 +122,4 @@ header{
     font-size: 32px;
     margin-top: 100px;
     line-height: 37.5px;
-}
-
-/* START FOOTER */
-footer{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    background-color: #011827 ;
-    color: white;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 21.09px;
-}
-footer h6{
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-footer p{
-    margin-left: 10px;
-    line-height: 1;
 }

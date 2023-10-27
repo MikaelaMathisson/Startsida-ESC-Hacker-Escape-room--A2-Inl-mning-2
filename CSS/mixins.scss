@@ -1,0 +1,11 @@
+@mixin card{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3em;
+}
+
+@mixin medium-breakpoint{
+    $medium-screen-breakpoint: 700px;
+}
+
+//För att använda mixins i sass så skriv @include och sen namn på mixin
