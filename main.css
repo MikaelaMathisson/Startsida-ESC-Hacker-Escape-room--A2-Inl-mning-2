@@ -22,8 +22,17 @@
     grid-column-start: 3;
     grid-column-end: 4;
 } */
+
+.topNav{
+    display: none;
 }
 
+.container{
+    margin-top: 480px;
+}
+li{
+    list-style: none;
+}
 
 header{
     background-color: #011827 ;
@@ -36,25 +45,16 @@ header{
     font-family: "Roboto";
     font-weight: 700;
     font-size: 24px;
-    line-height: 28.13px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin-top: 20px;
 }
-
-li{
-    list-style: none;
-}
-
 .logoImage{
     width: 130px;
     height: 82px;
     border-radius: 17px;
     margin: 15px 5px 24px 15px
-}
-.companyName{
-    display: flex;
-    flex-direction: column;
-    line-height: 0;
-    font-size: 9px;
-    margin-top: 20px;
 }
 .logo{
     display: flex;
@@ -68,13 +68,6 @@ li{
 
 }
 
-.topNav{
-    display: none;
-}
-
-.container{
-    margin-top: 480px;
-}
 .onlineChallenges{
     display: block; /* Changes from whole width of site button to displaying it like a block */
     flex-direction: column; /* Changes the order of the elements to a column instead of default row */
@@ -182,6 +175,7 @@ li{
     line-height: 37.5px;
 }
 
+/* START FOOTER */
 footer{
     margin-top: 50px;
     display: flex;
@@ -193,7 +187,6 @@ footer{
     font-size: 12px;
     line-height: 21.09px;
 }
-
 footer h6{
     font-weight: 700;
     font-size: 18px;
