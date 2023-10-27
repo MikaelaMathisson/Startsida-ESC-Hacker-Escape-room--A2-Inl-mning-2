@@ -21,4 +21,8 @@ footer{
         margin-left: 10px;
         line-height: 1;
     }
+    /*
+    @include breakpoint($medium-screen-breakpoint){
+        grid-column: span 2;
+    }*/
 }

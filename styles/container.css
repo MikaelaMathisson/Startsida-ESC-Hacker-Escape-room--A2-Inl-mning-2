@@ -1,20 +1,18 @@
 .container {
   margin-top: 480px;
+  /* START JOHN DOE */
 }
-
-li {
+.container li {
   list-style: none;
 }
-
-.onlineChallenges {
+.container .onlineChallenges {
   display: block; /* Changes from whole width of site button to displaying it like a block */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; /* Changes the order of the elements to a column instead of default row */
 }
-
-.fullStory {
+.container .fullStory {
   background-color: #011827;
   color: #FFFFFF;
   height: 500px;
@@ -22,8 +20,7 @@ li {
   display: block;
   font-size: 28px;
 }
-
-.fullStoryButton {
+.container .fullStoryButton {
   background-color: #011827;
   color: #8ACFE5;
   border: 1px solid #8ACFE5;
@@ -35,12 +32,10 @@ li {
   font-weight: 700;
   font-size: 24px;
 }
-
-.bookOnSiteImg, .seeAllChallenges {
+.container .bookOnSiteImg, .container .seeAllChallenges {
   max-width: 100%;
 }
-
-.bookOnSite h4 {
+.container .bookOnSite h4 {
   font-family: "Roboto";
   font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
   font-size: 32px;
@@ -48,19 +43,16 @@ li {
   line-height: 37.5px;
   margin: 20px 20px;
 }
-
-.seeAllChallenges h4 {
+.container .seeAllChallenges h4 {
   font-family: "Roboto";
   font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
   font-size: 32px;
   margin-top: 10px;
 }
-
-.seeAllChallenges p {
+.container .seeAllChallenges p {
   font-size: 24px;
 }
-
-.seeAllChallengesButton, .bookOnSiteButton {
+.container .seeAllChallengesButton, .container .bookOnSiteButton {
   background-color: #E3170A;
   color: white;
   border: none;
@@ -71,8 +63,7 @@ li {
   font-family: "Roboto";
   font-weight: 700;
 }
-
-.OnSiteChallengesButton {
+.container .OnSiteChallengesButton {
   background-color: #8ACFE5;
   border: none;
   padding: 10px 30px;
@@ -83,8 +74,7 @@ li {
   border-radius: 4px;
   margin-left: 91px;
 }
-
-.aLinkOnlineChallenges {
+.container .aLinkOnlineChallenges {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -93,13 +83,10 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
-
-/* START JOHN DOE */
-.johnDoe {
+.container .johnDoe {
   max-width: 100%;
 }
-
-.johnDoeImg {
+.container .johnDoeImg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,8 +95,7 @@ li {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-
-.johnDoeP1 {
+.container .johnDoeP1 {
   font-family: "Roboto";
   font-weight: 400;
   font-style: italic;
@@ -118,16 +104,14 @@ li {
   line-height: 21px;
   max-width: 300px;
 }
-
-.johnDoeP2 {
+.container .johnDoeP2 {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   margin-top: 0;
   line-height: 21px;
 }
-
-.challenges h3 {
+.container .challenges h3 {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 32px;
