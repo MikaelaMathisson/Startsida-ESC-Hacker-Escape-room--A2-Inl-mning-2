@@ -6,10 +6,6 @@
 .container{
     margin-top: 280px;
     text-align: center;
-   
-
-
-
 
 
 .onlineChallenges{
@@ -209,22 +205,4 @@ border-radius: 50px;
     width: 100%;
 }
 }
-
-footer{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    background-color: #011827;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 21.09px;
-
-footer h3{
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-}
+@import 'sections/footer.scss';
