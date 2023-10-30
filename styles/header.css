@@ -3,6 +3,11 @@ header {
   height: 144px;
   margin-bottom: 30px;
   text-align: left;
+  /*
+      .topNav a:hover {
+              background-color: #ddd;
+              color: black;
+            }*/
 }
 header .logo {
   display: -webkit-box;
@@ -36,6 +41,17 @@ header .companyName {
 }
 header .topNav {
   display: none;
+  visibility: hidden;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+@media screen and (min-width: 900px) {
+  header .topNav {
+    display: block;
+    visibility: visible;
+  }
 }
 header .firstImage {
   background-size: contain;
@@ -44,8 +60,4 @@ header .firstImage {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}
-
-header:hover {
-  border: blue;
 }

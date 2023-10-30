@@ -1,14 +1,22 @@
-/* @mixin card{
-    background-color: black;
+ @mixin card{
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 0.3em;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 30px;
+    height: fit-content;
+    border-radius: 10px;
 ;
-
+/*
 @mixin breakpoint($min-size){
     @media screen and (min-width: $min-size){
         @content;
-    }      
+    }      */
 }
-*/
+
 
 //För att använda mixins i sass så skriv @include och sen namn på mixin;

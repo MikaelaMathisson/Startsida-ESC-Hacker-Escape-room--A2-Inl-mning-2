@@ -102,7 +102,7 @@
     flex-direction: row;
 
     .johnDoeImg{
-border-radius: 50px;
+    border-radius: 50px;
     }
     .johnDoeP1{
         font-family: "Roboto", sans-serif;
@@ -131,14 +131,7 @@ border-radius: 50px;
     max-height: 446px;
     align-items: center;
     margin-bottom: 50px;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-start;
-    overflow-x: scroll;
-    gap: 30px;
-    height: fit-content;
-    border-radius: 10px;
+    @include card;
 }
     .challenges h3{
         font-family: "Roboto", sans-serif;

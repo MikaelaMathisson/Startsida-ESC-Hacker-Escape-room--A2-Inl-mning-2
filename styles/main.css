@@ -1,20 +1,13 @@
-/* @mixin card{
-    background-color: black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3em;
-;
-
-@mixin breakpoint($min-size){
-    @media screen and (min-width: $min-size){
-        @content;
-    }      
-}
-*/
 header {
   background-color: #011827;
   height: 144px;
   margin-bottom: 30px;
   text-align: left;
+  /*
+      .topNav a:hover {
+              background-color: #ddd;
+              color: black;
+            }*/
 }
 header .logo {
   display: -webkit-box;
@@ -48,6 +41,17 @@ header .companyName {
 }
 header .topNav {
   display: none;
+  visibility: hidden;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+@media screen and (min-width: 900px) {
+  header .topNav {
+    display: block;
+    visibility: visible;
+  }
 }
 header .firstImage {
   background-size: contain;
@@ -56,10 +60,6 @@ header .firstImage {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}
-
-header:hover {
-  border: blue;
 }
 
 .container {
@@ -193,6 +193,9 @@ header:hover {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0.3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,6 +213,11 @@ header:hover {
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 10px;
+  /*
+  @mixin breakpoint($min-size){
+      @media screen and (min-width: $min-size){
+          @content;
+      }      */
 }
 .container .challenges h3 {
   font-family: "Roboto", sans-serif;
