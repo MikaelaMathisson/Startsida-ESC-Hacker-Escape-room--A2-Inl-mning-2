@@ -3,11 +3,6 @@ header {
   height: 144px;
   margin-bottom: 30px;
   text-align: left;
-  /*
-      .topNav a:hover {
-              background-color: #ddd;
-              color: black;
-            }*/
 }
 header .logo {
   display: -webkit-box;
@@ -46,9 +41,14 @@ header .topNav {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
+  /*
+      .topNav a:hover {
+              background-color: #ddd;
+              color: black;
+            }*/
 }
 @media screen and (min-width: 900px) {
-  header .topNav {
+  header .topNav .topNav {
     display: block;
     visibility: visible;
   }
@@ -67,13 +67,6 @@ header .firstImage {
   text-align: center;
   /* START JOHN DOE */
 }
-.container .onlineChallenges {
-  display: block; /* Changes from whole width of site button to displaying it like a block */
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; /* Changes the order of the elements to a column instead of default row */
-}
 .container .fullStory {
   background-color: #011827;
   color: #FFFFFF;
@@ -84,10 +77,10 @@ header .firstImage {
   padding: 20px 20px;
   margin-top: 40px;
 }
-.container .fullStory p {
+.container .fullStory .fullStory p {
   font-size: 28px;
 }
-.container .fullStoryButton {
+.container .fullStory .fullStoryButton {
   background-color: #011827;
   color: #8ACFE5;
   border: 1px solid #8ACFE5;
@@ -152,6 +145,13 @@ header .firstImage {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.container .onlineChallenges {
+  display: block; /* Changes from whole width of site button to displaying it like a block */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; /* Changes the order of the elements to a column instead of default row */
 }
 .container .johnDoe {
   max-width: 100%;
@@ -219,14 +219,14 @@ header .firstImage {
           @content;
       }      */
 }
-.container .challenges h3 {
+.container .challenges .challenges h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 32px;
   margin-top: 100px;
   line-height: 37.5px;
 }
-.container .challenges h4 {
+.container .challenges .challenges h4 {
   font-size: 28px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -235,14 +235,14 @@ header .firstImage {
   padding: 0;
   margin-bottom: 0;
 }
-.container .challengesImg {
+.container .challenges .challengesImg {
   max-width: 100%;
   border-radius: 8px 8px 0px 0px;
   height: 319;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.container .popularChallengeTitle {
+.container .challenges .popularChallengeTitle {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: 400;
@@ -250,7 +250,7 @@ header .firstImage {
   letter-spacing: 0em;
   text-align: left;
 }
-.container .challenges .bookOnSiteButton {
+.container .challenges .challenges .bookOnSiteButton {
   padding: 5px 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -302,6 +302,7 @@ footer {
   font-weight: 400;
   font-size: 12px;
   line-height: 21.09px;
+  margin-left: 10px;
 }
 footer footer h3 {
   font-weight: 700;

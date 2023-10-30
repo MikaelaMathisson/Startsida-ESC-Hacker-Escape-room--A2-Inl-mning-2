@@ -7,195 +7,192 @@
     margin-top: 280px;
     text-align: center;
 
-
-.onlineChallenges{
-    display: block; /* Changes from whole width of site button to displaying it like a block */
-    flex-direction: column; /* Changes the order of the elements to a column instead of default row */
-}
-
-.fullStory{
-    background-color: #011827;
-    color: #FFFFFF;
-    height: 400px;
-    width: 100%;
-    font-size: 28px;
-    font-family: "Roboto", sans-serif;
-    padding: 20px 20px;
-    margin-top: 40px;
-}
-.fullStory p{
-    font-size: 28px;
-}
-.fullStoryButton{
-    background-color: #011827;
-    color: #8ACFE5;
-    border: 1px solid #8ACFE5;
-    padding: 15px 30px;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.bookOnSiteImg, .seeAllChallenges{
-    max-width: 100%;
-}
-.bookOnSite p{
-    font-family: "Roboto", sans-serif;
-}
-.bookOnSite h4{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
-    font-size: 32px;
-    color: #000000;
-    line-height: 37.5px;
-    margin: 20px 20px;
-}
-.seeAllChallenges h4{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
-    font-size: 32px;
-    margin-top: 10px;
-}
-.seeAllChallenges p{
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-}
-.seeAllChallengesButton, .bookOnSiteButton{
-    background-color: #E3170A;
-    color: white;
-    border: none;   
-    padding: 20px 60px;
-    border-radius: 4px;
-    margin-bottom: 50px;
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-}
-
-.OnSiteChallengesButton{
-    background-color: #8ACFE5;
-    border: none;   
-    padding: 20px 40px;
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
-    font-size: 18px;
-    border-radius: 4px;
-}
-
-.aLinkOnlineChallenges{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18.75px;
-    align-items: center;
-}
-
-/* START JOHN DOE */
-.johnDoe{
-    max-width: 100%;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-
-    .johnDoeImg{
-    border-radius: 50px;
-    }
-    .johnDoeP1{
+    .fullStory{
+        background-color: #011827;
+        color: #FFFFFF;
+        height: 400px;
+        width: 100%;
+        font-size: 28px;
         font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: italic;
-        font-size: 24px;
-
-        margin-bottom: 0;
-        line-height: 21px;
-        max-width: 300px;
-        
+        padding: 20px 20px;
+        margin-top: 40px;
+    
+        .fullStory p{
+            font-size: 28px;
+        }
+        .fullStoryButton{
+            background-color: #011827;
+            color: #8ACFE5;
+            border: 1px solid #8ACFE5;
+            padding: 15px 30px;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+        }
     }
-    .johnDoeP2{
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        margin-top: 0;
-        line-height: 21px;
-    }
-}
 
-.challenges{
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-family: "Roboto", sans-serif;
-    max-height: 446px;
-    align-items: center;
-    margin-bottom: 50px;
-    @include card;
-}
-    .challenges h3{
+    .bookOnSiteImg, .seeAllChallenges{
+        max-width: 100%;
+    }
+        .bookOnSite p{
+            font-family: "Roboto", sans-serif;
+        }
+        .bookOnSite h4{
+            font-family: "Roboto", sans-serif;
+            font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+            font-size: 32px;
+            color: #000000;
+            line-height: 37.5px;
+            margin: 20px 20px;
+        }
+
+    .seeAllChallenges h4{
         font-family: "Roboto", sans-serif;
-        font-weight: 400;
+        font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
         font-size: 32px;
-        margin-top: 100px;
-        line-height: 37.5px;
+        margin-top: 10px;
     }
-    .challenges h4{
-        font-size: 28px;
+        .seeAllChallenges p{
+            font-size: 24px;
+            font-family: "Roboto", sans-serif;
+        }
+        .seeAllChallengesButton, .bookOnSiteButton{
+            background-color: #E3170A;
+            color: white;
+            border: none;   
+            padding: 20px 60px;
+            border-radius: 4px;
+            margin-bottom: 50px;
+            font-size: 24px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+        }
+
+    .OnSiteChallengesButton{
+        background-color: #8ACFE5;
+        border: none;   
+        padding: 20px 40px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+        font-size: 18px;
+        border-radius: 4px;
+    }
+
+    .aLinkOnlineChallenges{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18.75px;
+        align-items: center;
+    }
+    .onlineChallenges{
+        display: block; /* Changes from whole width of site button to displaying it like a block */
+        flex-direction: column; /* Changes the order of the elements to a column instead of default row */
+    }
+    /* START JOHN DOE */
+    .johnDoe{
+        max-width: 100%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+
+        .johnDoeImg{
+            border-radius: 50px;
+        }
+        .johnDoeP1{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 24px;
+            margin-bottom: 0;
+            line-height: 21px;
+            max-width: 300px;
+        }
+        .johnDoeP2{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin-top: 0;
+            line-height: 21px;
+        }
+    }
+
+    .challenges{
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        font-family: "Roboto", sans-serif;
+        max-height: 446px;
+        align-items: center;
+        margin-bottom: 50px;
+        @include card;
+
+        .challenges h3{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            margin-top: 100px;
+            line-height: 37.5px;
+        }
+        .challenges h4{
+            font-size: 28px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 32.81px;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        .challengesImg{
+            max-width: 100%;    
+            border-radius: 8px 8px 0px 0px;
+            height: 319;
+            object-fit: cover;
+        }
+        .popularChallengeTitle{
+            font-family: "Roboto", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+                
+        }
+        .challenges .bookOnSiteButton{
+            padding: 5px 20px;
+            width: fit-content;
+            font-size: 12px;
+            float: right;
+        }
+    }
+
+    .review{
+        display: flex;
+        flex-direction: row;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-size: 28px;
-        line-height: 32.81px;
-        padding: 0;
-        margin-bottom: 0;
-    }
-    .challengesImg{
-        max-width: 100%;    
-        border-radius: 8px 8px 0px 0px;
-        height: 319;
-        object-fit: cover;
-    }
-    .popularChallengeTitle{
-        font-family: "Roboto", sans-serif;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 33px;
-        letter-spacing: 0em;
-        text-align: left;
-            
-    }
-    .challenges .bookOnSiteButton{
-    padding: 5px 20px;
-    width: fit-content;
-    font-size: 12px;
-    float: right;
-    }
-    
-.review{
-    display: flex;
-    flex-direction: row;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
         font-size: 14px;
     
-    
-    h4{
-        font-family: "Roboto", sans-serif;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 33px;
-        letter-spacing: 0em;
-        text-align: left;
+        h4{
+            font-family: "Roboto", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .starReview{
+            width: 23px;
+            height: 26px;
+        }
+    }
 
+    .card{
+        height: 456px;
+        width: 100%;
     }
-    .starReview{
-        width: 23px;
-        height: 26px;
-    }
-}
-.card{
-    height: 456px;
-    width: 100%;
-}
 }
 @import 'sections/footer.scss';

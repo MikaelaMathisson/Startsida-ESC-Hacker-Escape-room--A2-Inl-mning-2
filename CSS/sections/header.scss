@@ -31,19 +31,14 @@ header{
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             font-size: 24px;
+
         @media screen and (min-width: 900px) {
             .topNav{
                 display: block;
                 visibility: visible;
+            }
         }
-        }
-/*
-    .topNav a:hover {
-            background-color: #ddd;
-            color: black;
-          }*/
-        
-    }
+
     .firstImage{
     background-size: contain;
         max-width: 100%;
@@ -51,4 +46,3 @@ header{
         height: fit-content;
     }
 
-}
