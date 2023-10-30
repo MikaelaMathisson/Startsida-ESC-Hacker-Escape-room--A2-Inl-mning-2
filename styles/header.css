@@ -48,7 +48,7 @@ header .topNav {
     visibility: visible;
   }
 }
-header .topNav .firstImage {
+header .firstImage {
   background-size: contain;
   max-width: 100%;
   margin-bottom: 30px;
