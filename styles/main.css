@@ -43,7 +43,7 @@ header .topNav {
   font-size: 24px;
 }
 @media screen and (min-width: 900px) {
-  header .topNav .topNav {
+  header .topNav {
     display: block;
     visibility: visible;
   }
