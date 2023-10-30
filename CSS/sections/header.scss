@@ -2,9 +2,8 @@
 header{
     background-color: #011827 ;
     height: 144px;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
     text-align: left;
-
     .logo{
         display: flex;
         flex-direction: row;
@@ -32,9 +31,12 @@ header{
     .firstImage{
     background-size: contain;
         max-width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         height: fit-content;
         
     }
 }
- 
+ header:hover{
+    border: blue;
+
+ }

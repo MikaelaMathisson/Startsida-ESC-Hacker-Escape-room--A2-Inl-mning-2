@@ -1,33 +1,5 @@
 @import 'mixins';
 @import 'variables';
-/* BRYT VID 900 PX*/
-@media screen and (min-width: 700){
-    
-
-}
-   /* width: fit-content; /* Makes the headers width compared to the screen size */
-   /*
-   footer{                                              ÄNDRAR FOOTERN TILL ATT BLI BRED
-    margin-top: 300px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 
-}
-
-.infoFooter{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.siteMap{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-left: 10px;
-}
-.followUs{
-    grid-column-start: 3;
-    grid-column-end: 4;
-} */
-
-
 @import 'sections/header.scss';
 
 
@@ -37,9 +9,7 @@
    
 
 
-li{
-    list-style: none;
-}
+
 
 
 .onlineChallenges{
@@ -50,19 +20,21 @@ li{
 .fullStory{
     background-color: #011827;
     color: #FFFFFF;
-    height: 500px;
+    height: 400px;
     width: 100%;
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
     font-size: 28px;
     font-family: "Roboto", sans-serif;
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+.fullStory p{
+    font-size: 28px;
 }
 .fullStoryButton{
     background-color: #011827;
     color: #8ACFE5;
     border: 1px solid #8ACFE5;
-    padding: 15px 40px;
+    padding: 15px 30px;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
@@ -82,7 +54,6 @@ li{
     font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
     font-size: 32px;
     color: #000000;
-
     line-height: 37.5px;
     margin: 20px 20px;
 }
@@ -131,10 +102,11 @@ li{
 .johnDoe{
     max-width: 100%;
     margin-top: 0;
+    display: flex;
+    flex-direction: row;
 
     .johnDoeImg{
-        display: flex;
-        flex-direction: row;
+border-radius: 50px;
     }
     .johnDoeP1{
         font-family: "Roboto", sans-serif;
@@ -179,10 +151,19 @@ li{
         margin-top: 100px;
         line-height: 37.5px;
     }
+    .challenges h4{
+        font-size: 28px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32.81px;
+        padding: 0;
+        margin-bottom: 0;
+    }
     .challengesImg{
-        max-width: 100%;
-        width: 300px;
-        height: 150px;
+        max-width: 100%;    
+        border-radius: 8px 8px 0px 0px;
+        height: 319;
         object-fit: cover;
     }
     .popularChallengeTitle{
@@ -227,37 +208,23 @@ li{
     height: 456px;
     width: 100%;
 }
-
+}
 
 footer{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    background-color: #011827 ;
+    background-color: #011827;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 21.09px;
 
-    h6{
+footer h3{
         font-weight: 700;
         font-size: 18px;
         margin-bottom: 10px;
         margin-left: 10px;
     }
-    p{
-        margin-left: 10px;
-        line-height: 1;
-    }
-    /*
-    @include breakpoint($medium-screen-breakpoint){
-        grid-column: span 2;
-    }*/
-}
-
-
-
-
-
 }

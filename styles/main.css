@@ -1,30 +1,19 @@
-@charset "UTF-8";
-/* BRYT VID 900 PX*/
-/* width: fit-content; /* Makes the headers width compared to the screen size */
-/*
-   footer{                                              ÄNDRAR FOOTERN TILL ATT BLI BRED
-    margin-top: 300px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 
-}
+/* @mixin card{
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3em;
+;
 
-.infoFooter{
-    grid-column-start: 1;
-    grid-column-end: 2;
+@mixin breakpoint($min-size){
+    @media screen and (min-width: $min-size){
+        @content;
+    }      
 }
-.siteMap{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin-left: 10px;
-}
-.followUs{
-    grid-column-start: 3;
-    grid-column-end: 4;
-} */
+*/
 header {
   background-color: #011827;
   height: 144px;
-  margin-bottom: 200px;
+  margin-bottom: 30px;
   text-align: left;
 }
 header .logo {
@@ -63,19 +52,20 @@ header .topNav {
 header .firstImage {
   background-size: contain;
   max-width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+header:hover {
+  border: blue;
 }
 
 .container {
   margin-top: 280px;
   text-align: center;
   /* START JOHN DOE */
-}
-.container li {
-  list-style: none;
 }
 .container .onlineChallenges {
   display: block; /* Changes from whole width of site button to displaying it like a block */
@@ -87,19 +77,21 @@ header .firstImage {
 .container .fullStory {
   background-color: #011827;
   color: #FFFFFF;
-  height: 500px;
+  height: 400px;
   width: 100%;
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 3;
   font-size: 28px;
   font-family: "Roboto", sans-serif;
+  padding: 20px 20px;
+  margin-top: 40px;
+}
+.container .fullStory p {
+  font-size: 28px;
 }
 .container .fullStoryButton {
   background-color: #011827;
   color: #8ACFE5;
   border: 1px solid #8ACFE5;
-  padding: 15px 40px;
+  padding: 15px 30px;
   border-radius: 4px;
   display: block;
   margin: 0 auto;
@@ -164,8 +156,6 @@ header .firstImage {
 .container .johnDoe {
   max-width: 100%;
   margin-top: 0;
-}
-.container .johnDoe .johnDoeImg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,6 +163,9 @@ header .firstImage {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+.container .johnDoe .johnDoeImg {
+  border-radius: 50px;
 }
 .container .johnDoe .johnDoeP1 {
   font-family: "Roboto", sans-serif;
@@ -225,10 +218,19 @@ header .firstImage {
   margin-top: 100px;
   line-height: 37.5px;
 }
+.container .challenges h4 {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.81px;
+  padding: 0;
+  margin-bottom: 0;
+}
 .container .challengesImg {
   max-width: 100%;
-  width: 300px;
-  height: 150px;
+  border-radius: 8px 8px 0px 0px;
+  height: 319;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -276,7 +278,8 @@ header .firstImage {
   height: 456px;
   width: 100%;
 }
-.container footer {
+
+footer {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,18 +294,10 @@ header .firstImage {
   font-weight: 400;
   font-size: 12px;
   line-height: 21.09px;
-  /*
-  @include breakpoint($medium-screen-breakpoint){
-      grid-column: span 2;
-  }*/
 }
-.container footer h6 {
+footer footer h3 {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
   margin-left: 10px;
-}
-.container footer p {
-  margin-left: 10px;
-  line-height: 1;
 }
