@@ -43,7 +43,7 @@ header .logoImage {
   margin: 15px 5px 24px 15px;
 }
 header .companyName {
-  color: 0;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 9px;
@@ -61,14 +61,17 @@ header .topNav {
   display: none;
 }
 header .firstImage {
+  background-size: contain;
   max-width: 100%;
   margin-bottom: 100px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .container {
   margin-top: 280px;
+  text-align: center;
   /* START JOHN DOE */
 }
 .container li {
@@ -86,7 +89,9 @@ header .firstImage {
   color: #FFFFFF;
   height: 500px;
   width: 100%;
-  display: block;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
   font-size: 28px;
   font-family: "Roboto", sans-serif;
 }
@@ -146,7 +151,6 @@ header .firstImage {
   font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
   font-size: 18px;
   border-radius: 4px;
-  margin-left: 91px;
 }
 .container .aLinkOnlineChallenges {
   font-family: "Roboto", sans-serif;
@@ -161,7 +165,7 @@ header .firstImage {
   max-width: 100%;
   margin-top: 0;
 }
-.container .johnDoeImg {
+.container .johnDoe .johnDoeImg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,7 +174,7 @@ header .firstImage {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-.container .johnDoeP1 {
+.container .johnDoe .johnDoeP1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -179,12 +183,40 @@ header .firstImage {
   line-height: 21px;
   max-width: 300px;
 }
-.container .johnDoeP2 {
+.container .johnDoe .johnDoeP2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   margin-top: 0;
   line-height: 21px;
+}
+.container .challenges {
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", sans-serif;
+  max-height: 446px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-x: scroll;
+  gap: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
 }
 .container .challenges h3 {
   font-family: "Roboto", sans-serif;
@@ -193,12 +225,58 @@ header .firstImage {
   margin-top: 100px;
   line-height: 37.5px;
 }
-.container .challenges {
-  font-family: "Roboto", sans-serif;
+.container .challengesImg {
+  max-width: 100%;
+  width: 300px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
-/* START FOOTER */
-footer {
+.container .popularChallengeTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.container .challenges .bookOnSiteButton {
+  padding: 5px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 12px;
+  float: right;
+}
+.container .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.container .review h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.container .review .starReview {
+  width: 23px;
+  height: 26px;
+}
+.container .card {
+  height: 456px;
+  width: 100%;
+}
+.container footer {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,13 +296,13 @@ footer {
       grid-column: span 2;
   }*/
 }
-footer h6 {
+.container footer h6 {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
-footer p {
+.container footer p {
   margin-left: 10px;
   line-height: 1;
 }
