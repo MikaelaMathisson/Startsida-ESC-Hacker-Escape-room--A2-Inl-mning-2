@@ -1,0 +1,22 @@
+footer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #011827;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21.09px;
+}
+footer footer h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
