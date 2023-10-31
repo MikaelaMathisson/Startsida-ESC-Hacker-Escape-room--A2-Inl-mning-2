@@ -5,8 +5,9 @@ header{
     margin-bottom: 30px;
     text-align: left;
     .logo{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        min-width: 240px;
     }
     .logoImage{
         width: 130px;
@@ -23,6 +24,7 @@ header{
         flex-direction: column;
         line-height: 0;
         margin-top: 20px;
+        grid-column: 2 / 3;
         } 
     .topNav{
             display: none;
@@ -36,6 +38,27 @@ header{
         .topNav{
             display: block;
             visibility: visible;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin-left: 200px;
+            margin-right: 200px;
+            color: white;
+            }
+            #playOnline{
+                grid-column: 2 / 3;
+                color: white;
+            }
+            #playOnSite{
+                grid-column: 4 / 5;
+                color: white;
+            }
+            #story{
+                grid-column: 6 / 7;
+                color: white;
+            }
+            #contact{
+                grid-column: 8 / 9;
+                color: white;
             }
     }
     
