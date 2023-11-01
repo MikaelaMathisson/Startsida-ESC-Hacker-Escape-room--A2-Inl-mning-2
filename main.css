@@ -31,12 +31,16 @@ header{
     .topNav{
             display: none;
             visibility: hidden;
-            color: white;
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             font-size: 24px;
     }
-
+    .topNav a{
+        color: white;
+    }
+.topNav a:hover{
+    color: lightblue;
+}
 
     @media screen and (min-width: 900px) {
         .topNav{
@@ -73,12 +77,6 @@ header{
             height: fit-content;
         }
 
-
-
-
-
-
-
 .container{
         margin-top: 175px;
         text-align: center;
@@ -87,7 +85,6 @@ header{
         display: block; /* Changes from whole width of site button to displaying it like a block */
         flex-direction: column; /* Changes the order of the elements to a column instead of default row */
     }
-   
     .OnSiteChallengesButton{
         background-color: #8ACFE5;
         border: none;  
@@ -99,20 +96,10 @@ header{
         border-radius: 4px;
     }
 
-
-/*
-    .aLinkOnlineChallenges
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 18.75px;
-        align-items: center;
-    */
-   
     /* START JOHN DOE */
     .johnDoe{
         max-width: 100%;
-        margin-top: 20%;
+        margin-top: 40px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -194,6 +181,7 @@ header{
                 align-items:center;
         }
     }
+
     .challenges{
         background-color: white;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -202,8 +190,9 @@ header{
         align-items: center;
         margin-bottom: 50px;
         margin-top: 50px;
+        margin-left: 10px;
         padding: 0.3em;
-        width: 100%;
+        width: 200%;
         gap: 30px;
         height: fit-content;
         border-radius: 10px;
@@ -223,7 +212,6 @@ header{
         visibility: hidden;
         max-height: 446px;
     }
-    
     .gridChallenges{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -231,7 +219,7 @@ header{
     }
     .cardButtons{
         margin-top: 10px;
-        padding: 5px 20px;
+        padding: 10px 20px;
         width: fit-content;
         font-size: 12px;
         background-color: #E3170A;
@@ -253,7 +241,7 @@ header{
         background-color: #E3170A;
         color:  white;
         border: none;  
-        padding: 5px 20px;
+        padding: 10px 20px;
         border-radius: 4px;
         margin-bottom: 50px;
         font-size: 24px;
@@ -403,7 +391,9 @@ header{
     }
         .bookOnSite p{
             font-family: "Roboto", sans-serif;
-            font-size: 16px;    
+            font-size: 16px; 
+            text-align: left; 
+            margin: 20px 20px;  
         }
         .bookOnSite h4{
             font-family: "Roboto", sans-serif;
@@ -412,6 +402,7 @@ header{
             color: #000000;
             line-height: 37.5px;
             margin: 20px 20px;
+            text-align: left;
         }
 
 
@@ -420,28 +411,32 @@ header{
         font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
         font-size: 32px;
         margin-top: 10px;
+        text-align: left;
+        margin: 20px 20px;
     }
         .seeAllChallenges p{
             font-size: 16px;
             font-family: "Roboto", sans-serif;
+            text-align: left;
+            margin: 20px 20px;
         }
         
  
         .seeAllChallengesButton, .bookOnSiteButton{
-            padding: 5px 20px;
+            padding: 5px 30px;
             width: fit-content;
             font-size: 12px;
-            float: right;
+            float: left;
             background-color: #E3170A;
             color:  white;
             border: none;  
-            padding: 20px 60px;
             border-radius: 4px;
             margin-bottom: 50px;
             font-size: 24px;
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             width: fit-content;
+            margin: 20px 20px;
         }
 
 /* GRIDS with different screen sizes */
@@ -521,16 +516,7 @@ header{
 }
 
 @media only screen and (min-width: 1100px) {
-    .bookOnSite{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
-    .seeAllChallenges{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
+    
     .bookOnSite h4{
         font-size: 30px;
         margin-top: 60px;
@@ -564,16 +550,7 @@ header{
 }
 
 @media only screen and (min-width: 1500px) {
-    .bookOnSite{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
-    .seeAllChallenges{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 100%;
-    }
+    
     .bookOnSite h4{
         font-size: 45px;
         margin-top: 100px;
@@ -601,7 +578,7 @@ header{
     }
 
     footer{
-      margin-top: 50px;
+      margin-top: 100px;
       display: grid;
       grid-template-columns: 1fr;
       background-color: #011827;
@@ -609,9 +586,12 @@ header{
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       font-size: 12px;
-      line-height: 15px;
+      line-height: 12px;
+      width: 100%;
     }
-    
+    .footer1{
+        margin-top: 20px;
+    }
         .footer1, .footer2, .footer3 {
             margin-left: 10px;
         }
@@ -626,7 +606,7 @@ header{
      footer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-    
+     }
      .footer1{
         grid-column: 1 / 3;
         max-width: 50%;
@@ -645,4 +625,5 @@ header{
         margin-top: 30px;
         margin-bottom: 30px;
         
-     }}}
+     }
+    }
