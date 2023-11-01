@@ -80,9 +80,9 @@ header{
 
 
 .container{
-    margin-top: 175px;
-    text-align: center;
-}
+        margin-top: 175px;
+        text-align: center;
+    }
     .onlineChallenges{
         display: block; /* Changes from whole width of site button to displaying it like a block */
         flex-direction: column; /* Changes the order of the elements to a column instead of default row */
@@ -101,13 +101,13 @@ header{
 
 
 /*
-    .aLinkOnlineChallenges{
+    .aLinkOnlineChallenges
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 18.75px;
         align-items: center;
-    }*/
+    */
    
     /* START JOHN DOE */
     .johnDoe{
@@ -193,8 +193,7 @@ header{
                 margin-right: 100px;
                 align-items:center;
         }
-
-
+    }
     .challenges{
         background-color: white;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -270,9 +269,9 @@ header{
             width: 100%;
             visibility: visible;
         }
-.cardButtons {
-    padding: 5px 40px;
-}
+        .cardButtons, .bookOnSiteButton1 {
+            padding: 5px 40px;
+        }
     }
 
         .popularChallengeTitle{
@@ -300,27 +299,10 @@ header{
             height: 319;
             object-fit: cover;
         }
-        .challenges .bookOnSiteButton{
-            padding: 5px 20px;
-            width: fit-content;
-            font-size: 12px;
-            float: right;
-                background-color: #E3170A;
-                color:  white;
-                border: none;  
-                padding: 20px 60px;
-                border-radius: 4px;
-                margin-bottom: 50px;
-                font-size: 24px;
-                font-family: "Roboto", sans-serif;
-                font-weight: 700;
-                width: fit-content;
-            }
         
         .review{
             display: flex;
             flex-direction: row;
-           
             font-family: "Roboto", sans-serif;
             font-weight: 400;
             font-size: 14px;
@@ -443,6 +425,8 @@ header{
             font-size: 16px;
             font-family: "Roboto", sans-serif;
         }
+        
+ 
         .seeAllChallengesButton, .bookOnSiteButton{
             padding: 5px 20px;
             width: fit-content;
@@ -459,55 +443,7 @@ header{
             font-weight: 700;
             width: fit-content;
         }
-        
 
-footer{
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: #011827;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-    .footer1, .footer2, .footer3 {
-        margin-left: 10px;
-    }
-    footer h3{
-          font-weight: 700;
-          font-size: 18px;
-          margin-bottom: 10px;
-          line-height: 2px;
-    }
-
-@media only screen and (min-width: 900px) {
- footer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
- .footer1{
-    grid-column: 1 / 3;
-    max-width: 50%;
-    margin-left: 50px;
-    line-height: 1;
-    margin-top: 30px;
-    margin-bottom: 30px;
- }
- .footer2{
-    grid-column: 3 / 4;
-    margin-top: 30px;
-    margin-bottom: 30px;
- }
- .footer3{
-    grid-column: 4 / 5;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
- }
-}
 /* GRIDS with different screen sizes */
 @media only screen and (min-width: 900px) {
     .bookOnSite{
@@ -625,7 +561,7 @@ footer{
         margin-bottom: 100px;
         text-align: left;
     }
-}}
+}
 
 @media only screen and (min-width: 1500px) {
     .bookOnSite{
@@ -662,4 +598,51 @@ footer{
         margin-bottom: 100px;
         padding: 2px 40px;
         }
-*/}}
+    }
+
+    footer{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: #011827;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    
+        .footer1, .footer2, .footer3 {
+            margin-left: 10px;
+        }
+        footer h3{
+              font-weight: 700;
+              font-size: 18px;
+              margin-bottom: 10px;
+              line-height: 2px;
+        }
+    
+    @media only screen and (min-width: 900px) {
+     footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    
+     .footer1{
+        grid-column: 1 / 3;
+        max-width: 50%;
+        margin-left: 50px;
+        line-height: 1;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+     .footer2{
+        grid-column: 3 / 4;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+     .footer3{
+        grid-column: 4 / 5;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+     }}}
