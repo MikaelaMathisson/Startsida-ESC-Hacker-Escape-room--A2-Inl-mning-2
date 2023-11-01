@@ -38,9 +38,9 @@ header{
     .topNav a{
         color: white;
     }
-.topNav a:hover{
-    color: lightblue;
-}
+    .topNav a:hover{
+        color: lightblue;
+    }
 
     @media screen and (min-width: 900px) {
         .topNav{
@@ -70,12 +70,28 @@ header{
             }
     }
    
-        .firstImage{
-            background-size: contain;
+        .firstImage1{
             width: 100%;
-            margin-bottom: 30px;
-            height: fit-content;
+            object-fit: contain;
+            display: block;
         }
+        .firstImage2{
+            width: 100%;
+            height: auto;
+            object-fit: scale-down;
+            display: none;
+            background-size: contain;
+        }
+        @media screen and (min-width: 1000px) {
+            .firstImage1{
+                display: none;
+            }
+            .firstImage2{
+                display: block;
+                object-fit: contain;
+            }
+        }
+    
 
 .container{
         margin-top: 175px;
@@ -99,7 +115,7 @@ header{
     /* START JOHN DOE */
     .johnDoe{
         max-width: 100%;
-        margin-top: 40px;
+        margin-top: 150px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -594,12 +610,17 @@ header{
     }
         .footer1, .footer2, .footer3 {
             margin-left: 10px;
+            
         }
         footer h3{
               font-weight: 700;
               font-size: 18px;
               margin-bottom: 10px;
               line-height: 2px;
+        }
+        .footer1 p:hover, .footer2 p:hover, .footer3 p:hover {
+            color: lightblue;
+            
         }
     
     @media only screen and (min-width: 900px) {
