@@ -2,7 +2,7 @@
 
 header{
     background-color: #011827 ;
-    height: 144px;
+    height: fit-content;
     margin-bottom: 30px;
     text-align: left;
 }
@@ -28,6 +28,22 @@ header{
         margin-top: 20px;
         grid-column: 2 / 3;
         }
+
+        @media screen and (min-width: 580px) {
+            .companyName{
+                color: white;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                font-size: 25px;
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                line-height: 0;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                }
+        }
+
     .topNav{
             display: none;
             visibility: hidden;
@@ -37,7 +53,12 @@ header{
     }
     .topNav a{
         color: white;
-    }
+        line-height: 22px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;   
+        text-decoration: none;
+     }
     .topNav a:hover{
         color: lightblue;
     }
@@ -106,12 +127,12 @@ header{
     .onlineChallenges{
         margin-top: 300px;
     }
-    @media only screen and (min-width: 400px) {
+    @media only screen and (min-width: 300px) {
         .onlineChallenges{
-            margin-top: 370px;
+            margin-top: 70px;
         }
         .topButtons{
-            margin-top: 15%;
+            margin-top: 1%;
         }
     }
     @media only screen and (min-width: 800px) {
@@ -128,24 +149,25 @@ header{
         display: inline-block;
         text-decoration: none;
     }
+    
     .topButtons .onlineChallengesButton{
         color: white;
     }
     .onlineChallenges{
-        margin-top: 500px;
+        margin-top: 1%;
     }
     .onlineChallenges a{
         color: white;
     }
-}
+    }
 @media only screen and (min-width: 1000px) {
     .onlineChallenges{
-        margin-top: 370px;
+        margin-top: 170px;
     }
     }
     @media only screen and (min-width: 1200px) {
         .onlineChallenges{
-            margin-top: 400px;
+            margin-top: 300px;
         }
         }
         @media only screen and (min-width: 1300px) {
@@ -155,7 +177,7 @@ header{
             }
     @media only screen and (min-width: 1500px) {
     .onlineChallenges{
-        margin-top: 670px;
+        margin-top: 100px;
     }
     .topButtons{
         margin-top: 15%;
@@ -306,7 +328,7 @@ header{
         float: right;
         padding: 20px 60px;
         border-radius: 4px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         font-size: 24px;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -321,7 +343,7 @@ header{
         border: none;  
         padding: 10px 20px;
         border-radius: 4px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         font-size: 24px;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -408,6 +430,7 @@ header{
    }
         .fullStory p{
             font-size: 28px;
+            margin-right: 20px;
         }
         .fullStoryButton{
             background-color: #011827;
@@ -459,7 +482,7 @@ header{
     }
         .bookOnSite p{
             font-family: "Roboto", sans-serif;
-            font-size: 16px;
+            font-size: 24px;
             text-align: left;
             margin: 20px 20px;  
         }
@@ -485,7 +508,7 @@ header{
         margin: 20px 20px;
     }
         .seeAllChallenges p{
-            font-size: 16px;
+            font-size: 24px;
             font-family: "Roboto", sans-serif;
             text-align: left;
             margin: 20px 20px;
@@ -493,7 +516,7 @@ header{
        
  
         .seeAllChallengesButton, .bookOnSiteButton{
-            padding: 5px 30px;
+            padding: 20px 60px;
             width: fit-content;
             font-size: 12px;
             float: left;
