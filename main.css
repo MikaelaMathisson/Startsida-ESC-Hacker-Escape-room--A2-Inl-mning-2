@@ -122,7 +122,9 @@ header{
     }
     .onlineChallenges{
         display: block; /* Changes from whole width of site button to displaying it like a block */
+        display: flex;
         flex-direction: column; /* Changes the order of the elements to a column instead of default row */
+        align-items: center; /* Makes button to a block instead of full width */
     }
     .onlineChallenges{
         margin-top: 100px;
@@ -133,6 +135,10 @@ header{
         }
         .topButtons{
             margin-top: 1%;
+            display: block; /* Changes from whole width of site button to displaying it like a block */
+        display: flex;
+        flex-direction: column; /* Changes the order of the elements to a column instead of default row */
+        align-items: center;
         }
     }
     @media only screen and (min-width: 800px) {
@@ -196,9 +202,8 @@ header{
     /* START JOHN DOE */
     .johnDoe{
         max-width: 100%;
-        margin-top: 150px;
+        margin-top: 70px;
         margin-left: 30px;
-        margin-right: 30px;
     }
         .johnDoeImg{
             border-radius: 50px;
@@ -272,7 +277,7 @@ header{
         @media screen and (min-width: 1200px) {
             .johnDoe, .johnDoe2{
                 max-width: 100%;
-                margin-top: 20%;
+                margin-top: 1%;
                 margin-left: 100px;
                 margin-right: 100px;
                 align-items:center;
