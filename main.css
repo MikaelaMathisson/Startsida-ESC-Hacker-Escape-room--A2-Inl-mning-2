@@ -131,14 +131,14 @@ header{
     }
     @media only screen and (min-width: 300px) {
         .onlineChallenges{
-            margin-top: 70px;
+            margin-top: 10px;
         }
         .topButtons{
             margin-top: 1%;
             display: block; /* Changes from whole width of site button to displaying it like a block */
-        display: flex;
-        flex-direction: column; /* Changes the order of the elements to a column instead of default row */
-        align-items: center;
+            display: flex;
+            flex-direction: column; /* Changes the order of the elements to a column instead of default row */
+            align-items: center;
         }
     }
     @media only screen and (min-width: 800px) {
@@ -163,17 +163,22 @@ header{
     .onlineChallenges a{
         color: white;
     }
+    .onlineChallenges{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        display: block;
+    }
+    .topButtons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        display: block;
+    }
     }
 @media only screen and (min-width: 1000px) {
     .onlineChallenges{
         margin-top: 1px;
     }
-    }
-    @media only screen and (min-width: 1200px) {
-        .onlineChallenges{
-            margin-top: 1px;
-        }
-        }
+}
         @media only screen and (min-width: 1300px) {
             .onlineChallenges{
                 margin-top: 2px;
