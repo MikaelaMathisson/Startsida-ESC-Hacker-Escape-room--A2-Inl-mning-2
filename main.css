@@ -10,6 +10,7 @@ header{
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         min-width: 240px;
+        margin-bottom: 30px;
     }
     .logoImage{
         width: 130px;
@@ -129,6 +130,20 @@ header{
     .onlineChallenges{
         margin-top: 100px;
     }
+    .onlineChallengesButton{
+        margin-top: 30px;
+    }
+    .OnSiteChallengesButton{
+        background-color: #8ACFE5;
+        border: none;  
+        padding: 25px 70px;
+        font-size: 18px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
+        font-size: 18px;
+        border-radius: 4px;
+    }
     @media only screen and (min-width: 300px) {
         .onlineChallenges{
             margin-top: 10px;
@@ -146,15 +161,16 @@ header{
         background-color: #E3170A;
         color: white;
         border: none;  
-        padding: 20px 40px;
+        padding: 25px 70px;
         border-radius: 4px;
         margin-bottom: 50px;
-        font-size: 18px;
+        font-size: 28px;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         display: inline-block;
         text-decoration: none;
     }
+
     
     .topButtons .onlineChallengesButton{
         color: white;
@@ -183,7 +199,7 @@ header{
             .onlineChallenges{
                 margin-top: 2px;
             }
-            }
+        }
     @media only screen and (min-width: 1500px) {
     .onlineChallenges{
         margin-top: 1px;
@@ -193,14 +209,8 @@ header{
     }
     }
     .OnSiteChallengesButton{
-        background-color: #8ACFE5;
-        border: none;  
-        padding: 20px 40px;
-        color: black;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700; /* Bold text. Regular is 400, Medium is 500, bold 700 */
-        font-size: 18px;
-        border-radius: 4px;
+        padding: 25px 70px;
+        font-size: 28px;
     }
 
 
@@ -290,6 +300,11 @@ header{
         .johnDoe{
             margin-left: 400px;
         }
+    }
+    @media screen and (min-width: 1200px) {
+.johnDoe{
+    margin-left: 500px;
+}
     }
 
 
