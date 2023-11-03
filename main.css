@@ -122,9 +122,6 @@ header{
         display: flex;
         flex-direction: column; /* Changes the order of the elements to a column instead of default row */
     }
-    .onlineChallenges{
-        margin-top: 100px;
-    }
     .onlineChallengesButton{
         margin-top: 30px;
     }
