@@ -117,7 +117,7 @@ header{
 
 
 .container{
-        margin-top: 175px;
+        margin-top: 5px;
         text-align: center;
     }
     .onlineChallenges{
@@ -125,7 +125,7 @@ header{
         flex-direction: column; /* Changes the order of the elements to a column instead of default row */
     }
     .onlineChallenges{
-        margin-top: 300px;
+        margin-top: 100px;
     }
     @media only screen and (min-width: 300px) {
         .onlineChallenges{
@@ -153,34 +153,32 @@ header{
     .topButtons .onlineChallengesButton{
         color: white;
     }
-    .onlineChallenges{
-        margin-top: 1%;
-    }
+
     .onlineChallenges a{
         color: white;
     }
     }
 @media only screen and (min-width: 1000px) {
     .onlineChallenges{
-        margin-top: 170px;
+        margin-top: 1px;
     }
     }
     @media only screen and (min-width: 1200px) {
         .onlineChallenges{
-            margin-top: 300px;
+            margin-top: 1px;
         }
         }
         @media only screen and (min-width: 1300px) {
             .onlineChallenges{
-                margin-top: 450px;
+                margin-top: 2px;
             }
             }
     @media only screen and (min-width: 1500px) {
     .onlineChallenges{
-        margin-top: 100px;
+        margin-top: 1px;
     }
     .topButtons{
-        margin-top: 15%;
+        margin-top: 1%;
     }
     }
     .OnSiteChallengesButton{
