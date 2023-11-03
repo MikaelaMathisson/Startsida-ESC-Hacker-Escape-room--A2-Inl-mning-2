@@ -287,6 +287,9 @@ header{
                 margin-right: 100px;
                 align-items:center;
         }
+        .johnDoe{
+            margin-left: 400px;
+        }
     }
 
 
@@ -403,7 +406,7 @@ header{
             font-family: "Roboto", sans-serif;
             font-weight: 400;
             font-size: 14px;
-            text-align: left;
+            
        }
             .review h4{
                 font-family: "Roboto", sans-serif;
@@ -414,11 +417,9 @@ header{
                 text-align: left;
             }
             .starReview{
-                width: 23px;
+                width: 24px;
                 height: 26px;
             }
-
-
             .onlineChallengesButton{
                 color: #36769D;
             }
