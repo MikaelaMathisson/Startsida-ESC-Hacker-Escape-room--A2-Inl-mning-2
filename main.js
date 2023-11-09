@@ -21,10 +21,10 @@ function openNav() {
 
 /* Transparent background */ 
 menuBtn.addEventListener('click', () => {
-    modalBackgroundHidden.classList.remove("hidden");
+    modalBackground.classList.remove("hidden");
 })
 
 closeBtn.addEventListener('click', () => {
-    modalBackgroundHidden.classList.add('hidden');
+    modalBackground.classList.add('hidden');
 })
 
