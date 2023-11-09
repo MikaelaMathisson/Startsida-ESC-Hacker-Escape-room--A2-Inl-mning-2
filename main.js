@@ -7,7 +7,7 @@ const modalBackground = document.querySelector('modalBackgroundHidden');
 /* Open */
 function openNav() {
     document.getElementById("myNav").style.display = "block";
-    document.getElementById("myNav").style.margin = "20px 20px";
+    
   }
   
   /* Close */
