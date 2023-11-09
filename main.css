@@ -92,6 +92,113 @@ header{
     }
 
    
+/* Mobile Navigation for small screens*/ 
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px}
+    .overlay .closeBtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+  }
+
+  .hamburgerMenu{
+      grid-column: 7 / 8;
+      margin-top: 20px;
+      margin-left: 100px;
+      width: 50px;
+      display: block;
+      visibility: visible;
+      color: white;
+  }
+
+
+  @media screen and (max-width: 700px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        }
+    
+    .overlay {
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      z-index: 1;
+      top: 20;
+      left: 20;
+      right: 20;
+      background-color: #011827;
+      display: block;
+      animation: fadeIn 0.3s ;
+    }
+    .closeBtn{
+        float: right;
+    }
+    .overlay-content {
+      position: relative;
+      top: 10%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .overlay a {
+      padding: 30px;
+      text-decoration: none;
+      font-size: 36px;
+      color: white;
+      display: block;
+      font-weight: 700;
+    }
+
+    #popupContainer{
+        position: fixed;
+        top: 470px;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        height: 914px;
+        max-width: 410px;
+        width: 92%;
+        margin-left: 20px;
+        background-color: #011827;
+        filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+        animation: fadeIn 300ms;
+    
+    }
+    .modalBackgroundHidden{
+          height: 100vh;
+          width: 100vw;
+          background: rgba(255, 255, 255, 0.5);
+          position: absolute;
+          animation: fadeIn 300ms;
+          top: 0;
+          left: 0;
+    }
+    .hidden {
+        display: none;
+    }
+    
+    .overlay .closeBtn {
+      position: absolute;
+      top: 10px;
+      right: 35px;
+      font-size: 50px;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+  @media screen and (min-width: 700px) {
+      .hamburgerMenu, #myNav, .overlay-content, .closeBtn  {
+          display: none;
+      }
+  }
 
         .firstImage1{
             display: block;
@@ -743,122 +850,6 @@ header{
      }
     }
 
-
-        
-
-
-
-
-/* Menyn mobile nav*/ 
-
-   
-    
-    @media screen and (max-height: 450px) {
-      .overlay a {font-size: 20px}
-      .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-      }
-    }
-
-    .hamburgerMenu{
-        grid-column: 7 / 8;
-        margin-top: 20px;
-        margin-left: 100px;
-        width: 50px;
-        display: block;
-        visibility: visible;
-        color: white;
-    }
-
-
-    @media screen and (max-width: 700px) {
-    body {
-        font-family: 'Roboto', sans-serif;
-      }
-      
-      .overlay {
-        height: 100vh;
-        width: 100vw;
-        position: fixed;
-        z-index: 1;
-        top: 20;
-        left: 20;
-        right: 20;
-        background-color: #011827;
-        display: block;
-        animation: fadeIn 0.3s ;
-      }
-      
-      .closeBtn{
-          float: right;
-      }
-      .overlay-content {
-        position: relative;
-        top: 10%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-      }
-      
-      .overlay a {
-        padding: 30px;
-        text-decoration: none;
-        font-size: 36px;
-        color: white;
-        display: block;
-        font-weight: 700;
-      }
-      
-  
-      #popupContainer{
-          position: fixed;
-          top: 470px;
-          left: 45%;
-          transform: translate(-50%, -50%);
-          height: 914px;
-          max-width: 410px;
-          width: 92%;
-          margin-left: 20px;
-          background-color: #011827;
-          filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
-          animation: fadeIn 300ms;
-      }
-      .modalBackgroundHidden{
-              height: 100vh;
-              width: 100vw;
-              background: rgba(255, 255, 255, 0.5);
-              position: absolute;
-              animation: fadeIn 300ms;
-              top: 0;
-              left: 0;
-      }
-      .hidden {
-          display: none;
-      }
-      
-      .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 80px;
-      }
-      
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-}
-    @media screen and (min-width: 700px) {
-        .hamburgerMenu, #myNav, .overlay-content, .closeBtn  {
-            display: none;
-        }
-    }
 
 
 
