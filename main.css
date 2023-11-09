@@ -49,6 +49,7 @@ header{
             font-family: "Roboto", sans-serif;
             font-weight: 700;
             font-size: 24px;
+            display: none;
             visibility: hidden;
     }
     .topNav a{
@@ -89,6 +90,9 @@ header{
                 grid-column: 8 / 9;
             }
     }
+
+   
+
         .firstImage1{
             display: block;
             object-fit: contain;
@@ -236,6 +240,7 @@ header{
             text-align: left;
         }
         .johnDoe2{
+            display: none;
             visibility: hidden;
         }
        
@@ -265,6 +270,7 @@ header{
                 }
 
                 .johnDoe2{
+                    display: block;
                     visibility: visible;
                 }
                 .johnDoeImg2{
@@ -735,4 +741,99 @@ header{
         margin-bottom: 30px;
        
      }
+    }
+
+
+        
+
+
+TEST
+
+
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .overlay {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #011827;
+      display: block;
+      overflow-x: hidden;
+      transition: 1.5s;
+    }
+    
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: lightblue;
+      text-decoration: underline;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+   
+    .opacity{
+        color: white;
+        opacity: 0.5%;
+    }
+
+
+    .hamburgerMenu{
+        grid-column: 7 / 8;
+        margin-top: 20px;
+        margin-left: 150px;
+        display: block;
+        visibility: visible;
+        color: white;
+    }
+    @media screen and (min-width: 500px) {
+        .hamburgerMenu img {
+            display: none;
+        }
+    }
+
+    @keyframes fadeIn{
+
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
