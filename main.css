@@ -765,12 +765,15 @@ header{
     .hamburgerMenu{
         grid-column: 7 / 8;
         margin-top: 20px;
-        margin-left: 150px;
+        margin-left: 100px;
+        width: 50px;
         display: block;
         visibility: visible;
         color: white;
     }
 
+
+    @media screen and (max-width: 700px) {
     body {
         font-family: 'Roboto', sans-serif;
       }
@@ -812,10 +815,10 @@ header{
       #popupContainer{
           position: fixed;
           top: 470px;
-          left: 50%;
+          left: 45%;
           transform: translate(-50%, -50%);
           height: 914px;
-          max-width: 480px;
+          max-width: 410px;
           width: 92%;
           margin-left: 20px;
           background-color: #011827;
@@ -850,8 +853,9 @@ header{
             opacity: 1;
         }
     }
+}
     @media screen and (min-width: 700px) {
-        .hamburgerMenu  {
+        .hamburgerMenu, #myNav, .overlay-content, .closeBtn  {
             display: none;
         }
     }
