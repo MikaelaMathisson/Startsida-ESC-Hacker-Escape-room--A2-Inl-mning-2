@@ -766,7 +766,6 @@ TEST
       background-color: #011827;
       display: block;
       animation: fadeIn 0.3s ;
-      overflow-x: hidden;
     }
     
     
@@ -818,7 +817,7 @@ TEST
         visibility: visible;
         color: white;
     }
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 700px) {
         .hamburgerMenu  {
             display: none;
         }
