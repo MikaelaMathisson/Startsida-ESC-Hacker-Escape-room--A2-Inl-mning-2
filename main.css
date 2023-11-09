@@ -793,7 +793,7 @@ header{
       }
       .overlay-content {
         position: relative;
-        top: 25%;
+        top: 10%;
         width: 100%;
         text-align: center;
         margin-top: 30px;
@@ -805,6 +805,7 @@ header{
         font-size: 36px;
         color: white;
         display: block;
+        font-weight: 700;
       }
       
   
