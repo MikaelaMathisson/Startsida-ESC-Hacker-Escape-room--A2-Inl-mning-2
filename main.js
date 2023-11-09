@@ -11,13 +11,12 @@ function openNav() {
     document.getElementById("myNav").style.display = "block";
     
   }
-  
+
   /* Close */
   function closeNav() {
     document.getElementById("myNav").style.display = "none";
   }
   
-  /*Hide navbar and transparent background until click */
   
 
 /* Transparent background */ 
